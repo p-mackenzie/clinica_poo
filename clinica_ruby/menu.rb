@@ -7,11 +7,10 @@ class Menu
     end
 
     def boas_vindas
-        puts "Bem Vindo à clínica Ágil"
+        puts "-=-=-=-=-=-=-==-=-=-=-=-=-=Bem Vindo à Clínica Ágil-=-=-=-=-=-=-=-"
     end
 
     def exibir_menu
-        puts "-=-=-=-=-=-=-==-=-=-=-=-=-=Bem Vindo à Clínica Ágil-=-=-=-=-=-=-=-"
         puts "Escolha abaixo o que deseja fazer"
         puts "[1] - Cadastrar novo paciente"
         puts "[2] - Listar pacientes cadastrados"
