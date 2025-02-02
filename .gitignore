@@ -1,0 +1,15 @@
+# Java
+bin/
+*.class
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Ruby
+*.gem
+*.rbc
+/.config
+/coverage/
+/.bundle/

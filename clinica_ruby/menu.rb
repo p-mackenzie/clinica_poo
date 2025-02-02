@@ -1,4 +1,5 @@
 require_relative 'clinica'
+require_relative 'paciente'
 
 class Menu
 
@@ -22,6 +23,7 @@ class Menu
         case opcao
         when "1"
             puts "Cadastrar Pacientes"
+            @clinica.cadastrar_paciente
         when "2"
             puts "Listar Pacientes"
         when "3"
